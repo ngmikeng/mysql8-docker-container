@@ -11,4 +11,4 @@ create table IF not exists `test_table`
  `created_at`       Datetime DEFAULT NULL,
  `updated_at`       Datetime DEFAULT NULL,
     PRIMARY KEY (`id`)
-) DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
